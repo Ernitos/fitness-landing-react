@@ -21,7 +21,7 @@ const Home = () => {
 						className='md:-mt-20'
 					>
 						<div className='relative'>
-							<div className=' relative before:absolute before:-top-20 before:-left-20 before:z-[-1] before:w-full before:h-full  md:before:content-(--content-evolvetext)'>
+							<div className=' relative before:absolute before:-top-20 before:-left-20 before:z-[-1] before:w-full before:h-full md:before:content-evolvetext'>
 								<img src={HomePageText} alt='home-page' />
 							</div>
 						</div>
@@ -42,11 +42,11 @@ const Home = () => {
 						viewport={{ once: true, amount: 0.5 }}
 						className='mt-8 flex items-center gap-8'
 					>
-						<ActionButton to='contactus' variant='link'>
+						<ActionButton to='contacts' variant='link'>
 							Join Now
 						</ActionButton>
 						<ActionButton
-							to='contactus'
+							to='contacts'
 							variant='link'
 							className='animate rounded-md bg-primary-500 px-10 py-2 hover:bg-secondary-500 cursor-pointer hover:text-white '
 						>
