@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100..1000;1,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --font-*: initial;
+    --font-dmsans: "DM Sans", "sans-serif";
+    --font-montserrat: "Montserrat", "serif";
+
+    --color-gray-20: #F8F4EB;
+    --color-gray-50: #EFE6E6;
+    --color-gray-100: #DFCCCC;
+    --color-gray-500: #5E0000;
+
+    --color-primary-100: #FFE1E0;
+    --color-primary-300: #FFA6A3;
+    --color-primary-500: #FF6B66;
+
+    --color-secondary-400: #FFCD5B;
+    --color-secondary-500: #FFC132;
+
+    --background-gradient-yellowred: linear-gradient(90deg, #FF616A 0%, #FFC837 100%);
+    --background-mobile-home: url('./assets/images/HomePageGraphic.png');
+
+    --content-evolvetext: url('./assets/images/EvolveText.png');
+    --content-evolvetextconact: url('./assets/images/EvolveTextContact.png');
+    --content-abstractwaves: url('./assets/images/AbstractWaves.png');
+    --content-sparkles: url('./assets/images/Sparkles.png');
+    --content-circles: url('./assets/images/Circles.png');
+
+    --breakpoint-*: initial; 
+    --breakpoint-xs: 30rem;   
+    --breakpoint-sm: 48rem; 
+    --breakpoint-md: 66.25rem; 
+    
+}
+
+html,
+body,
+#root,
+.app {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: var(--font-dmsans);
+    scroll-behavior: smooth;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    content: 'next';
+    color: #ffc132;
+    border-radius: 50px;
+    font-weight: 900;
+}
+
+#ourclasses .swiper{
+    padding-bottom: 50px;
+}
+
+#ourclasses .swiper-pagination-bullet-active{
+    background: #FF616A;
+}
+
+#ourclasses .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+}
+
+@media(max-width:1124px) {
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        display: none;
+    }
+}
+@utility flex-between {
+	@apply flex items-center justify-between;
+}
+
+@utility animate {
+	@apply transition-all duration-500 ease-in-out;
+}
