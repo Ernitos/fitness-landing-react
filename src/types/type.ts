@@ -14,3 +14,8 @@ export type BenefitType = {
 	title: string;
 	description: string;
 }
+export type ClassType = {
+	title:string;
+	description?: string;
+	image: string;
+}
