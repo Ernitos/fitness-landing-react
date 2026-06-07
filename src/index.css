@@ -81,3 +81,28 @@ body,
 @utility animate {
 	@apply transition-all duration-500 ease-in-out;
 }
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    content: '';
+    border-radius: 50px;
+    
+
+}.swiper-button-next,
+.swiper-button-prev {
+    color: #ffc132 !important; 
+
+    
+}
+#classes .swiper{
+    padding-bottom: 50px;
+} 
+#classes .swiper-pagination-bullet-active{
+  background-color: #FF616A;
+} 
+@media(max-width: 1124px){
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        display:none !important ;
+    }
+}
