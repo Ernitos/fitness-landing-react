@@ -4,7 +4,7 @@
 
 ## (Live Demo)
 
-🔗 **[NETLIFY](peppy-fitness-landing-react.netlify.app)**
+🔗 **[NETLIFY](https://peppy-fitness-landing-react.netlify.app)**
 
 ---
 
