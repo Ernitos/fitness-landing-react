@@ -38,7 +38,6 @@ const Home = () => {
 						<ActionButton
 							to='contacts'
 							variant='link'
-							className='animate rounded-md bg-primary-500 px-10 py-2 hover:bg-secondary-500 cursor-pointer hover:text-white '
 						>
 							Learn More
 						</ActionButton>

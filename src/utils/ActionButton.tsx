@@ -10,7 +10,7 @@ type Props = {
 
 const ActionButton = ({ children, to, variant, className }: Props) => {
 	const baseStyle =
-		'animate rounded-md px-10 py-2 cursor-pointer  whitespace-nowrap'
+		'animate rounded-md px-6 sm:px-10 text-sm sm:text-base  py-2 whitespace-nowrap cursor-pointer  whitespace-nowrap'
 	const linkStyle =
 		className ||
 		`${baseStyle} bg-secondary-500
