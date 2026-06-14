@@ -44,6 +44,7 @@ body,
     overflow-x: hidden;
     font-family: var(--font-dmsans);
     scroll-behavior: smooth;
+    background-color: var(--color-gray-20);
 }
 
 .swiper-button-next:after,
@@ -105,4 +106,7 @@ body,
     .swiper-button-prev{
         display:none !important ;
     }
+}
+.baseStyles {
+    @apply mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 outline-none placeholder-white;
 }
